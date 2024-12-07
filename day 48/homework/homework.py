@@ -1,0 +1,1 @@
+print("codwrsebi gaketebui maq")
