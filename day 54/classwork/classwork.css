@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://images.search.yahoo.com/images/view;_ylt=AwrihCSwS2xncqQGLCiJzbkF;_ylu=c2VjA3NyBHNsawNpbWcEb2lkAzQ1ODA1MmZlZWEyMjVjNjljZDQ5M2QyMmIyMmQ1MDNjBGdwb3MDMgRpdANiaW5n?back=https%3A%2F%2Fimages.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Dbeautiful%2Bpictures%26type%3DE210US91215G0%26fr%3Dmcafee%26fr2%3Dpiv-web%26tab%3Dorganic%26ri%3D2&w=1600&h=1000&imgurl=thewowstyle.com%2Fwp-content%2Fuploads%2F2015%2F01%2Ffree-beautiful-place-wallpaper-hd-173.jpg&rurl=https%3A%2F%2Fwww.thewowstyle.com%2F100-beautiful-places-pictures-to-download%2F&size=510KB&p=beautiful+pictures&oid=458052feea225c69cd493d22b22d503c&fr2=piv-web&fr=mcafee&tt=100+Beautiful+Places+Pictures+To+Download&b=0&ni=21&no=2&ts=&tab=organic&sigr=98OVp9t7UwRG&sigb=jIUwtmea9NPB&sigi=T0QyycJc6pXb&sigt=dVSkgVYn8WON&.crumb=YNjVwCtRpeP&fr=mcafee&fr2=piv-web&type=E210US91215G0);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+h1{
+    color: green;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+h1:hover{
+    color: blue;
+}
+
