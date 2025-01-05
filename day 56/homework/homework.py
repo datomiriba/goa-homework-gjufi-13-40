@@ -1,0 +1,1 @@
+print("codwarsebi shesrulebuli maq")
