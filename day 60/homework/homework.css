@@ -1,0 +1,35 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.block{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    animation-name: heart;
+    animation-duration: 4s;
+    animation-delay: 0.9s;
+    background-color: blueviolet;
+}
+
+@keyframes heart{
+    0%{
+        width: 200px;
+        background-color: blueviolet;
+    }
+
+    25%{
+        width: 400px;
+        background-color: blueviolet;
+    }
+100%{
+    background-color: aqua;
+    width: 400px;
+}
+
+}
+

@@ -1,0 +1,46 @@
+ .hello{
+    color: red;
+    animation-name:changecolor ;
+    animation-duration: 10s;
+}
+
+@keyframes changecolor{
+    from{
+        transform: rotate(0deg);
+        color: yellow;
+    }
+    
+    to{
+        color: black;
+        transform: rotate(360deg) ;
+    }
+
+
+} 
+
+.hell{
+    background-color: azure;
+    animation-name:myniga ;
+    animation-duration: 10s;
+}
+
+@keyframes myniga{
+0%{
+    background-color: blue;
+    transform: rotate(90dreg);
+}
+ 15%{
+    background-color: brown;
+    transform: rotate(180dreg) translateX(180dreg);
+}
+ 60%{
+    background-color: chocolate;
+    transform: rotate(360dreg);
+}
+99%{
+    background-color: darkgreen;
+    transform: rotate(360dreg) scale(2) translateX(360);
+}
+
+}
+

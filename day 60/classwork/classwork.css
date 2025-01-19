@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    height: 90px;
+    width: 135px;
+    border-radius: 100%;
+    bottom: 50%;
+    border: 5px solid black;
+}
+
+.COMPANY{
+    color: rgb(0, 9, 128);
+}
+
+.COMPANY:hover{
+    color: rgb(139, 0, 0);
+}
+
+
+/* .img1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+
+.img2{
+    background-image: url("https://www.mbusa.com/en/home");
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+
+
+
+.img3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+} */
+
+
+
+.parent{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    max-width: 100%;
+    height: auto;
+}
+
+
+.class1{
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    /* background-image: url("https://logos-world.net/wp-content/uploads/2020/04/BMW-Emblem.jpg"); */
+    animation-name: deglove;
+    animation-timing-function: ease;
+    animation-duration: 5s;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    animation-fill-mode: forwards;
+      
+}
+
+
+.class2{  
+    background-size: cover;
+    /* background-image: url("https://logos-world.net/wp-content/uploads/2020/04/BMW-Emblem.jpg"); */
+    height: 150px;
+    width: 150px;
+    /* background-color: blue; */
+    animation-name: deglove;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    animation-fill-mode: forwards;
+}
+.class3{
+    background-size: cover;
+    /* background-image: url("https://logos-world.net/wp-content/uploads/2020/04/BMW-Emblem.jpg");  */
+    height: 150px;
+    width: 150px;
+    /* background-color: rgb(0, 47, 255); */
+    animation-name: deglove;
+    animation-timing-function: ease-in;
+    animation-duration: 5s;
+    border-radius: 50%;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    animation-fill-mode: forwards;
+}
+.class4{ 
+    background-size: cover;
+    /* background-image: url("https://logos-world.net/wp-content/uploads/2020/04/BMW-Emblem.jpg");    */
+    height: 150px;
+    width: 150px;
+    /* background-color: blue; */
+    animation-name: deglove;
+    animation-timing-function: ease-in-out;
+    animation-duration: 5s;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    animation-fill-mode: forwards;
+}
+/* .class5{
+    background-size: cover;
+    background-image: url("https://logos-world.net/wp-content/uploads/2020/04/BMW-Emblem.jpg");    
+    height: 150px;
+    width: 150px;
+    background-color: rgb(0, 255, 115);
+    animation-name: deglove;
+    animation-timing-function: ease-out;
+    animation-duration: 5s;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    animation-fill-mode: forwards;
+} */
+
+
+
+@keyframes deglove{
+    0%{
+        transform: rotate(0deg);
+        color: darkgreen;
+    }
+    25%{
+        transform: rotate(-90deg);
+        color: darkblue;
+    }
+    50%{
+        transform: rotate(180deg);
+        color: rgb(40, 0, 60);
+    }
+    75%{
+        transform: rotate(360deg);
+        color: rgb(120, 0, 0);
+    }
+    100%{
+        transform: rotate(-720deg);
+        color: rgb(109, 60, 133);
+    }
+
+
+}
+
