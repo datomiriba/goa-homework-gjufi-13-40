@@ -219,3 +219,62 @@ main{
     margin-left: 30%;
 }
 
+.features{
+    padding: 20px 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+.features h2{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42.19px;
+    text-align: center;
+}
+
+.feature h4{
+    font-weight:700 ;
+    line-height: 35.16px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.circle{
+    background-color: aqua;
+    width: 78.39px;
+    height: 70px;
+    border-radius: 35px;
+}
+
+.circles{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+
+.feature{
+    text-align: center;
+    border: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top-side, .btm-side{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
