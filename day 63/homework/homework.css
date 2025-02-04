@@ -177,14 +177,29 @@ main{
 
 .cards{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    text-align: center;
+    align-items: center;
     margin-top: 50px;
     padding: 20px 100px;
     gap: 10%;
     width: 100%;
     padding: 100px 0px;
     background-color:#CCCCCC4D ;
+   
+}
+
+.card2{
+    align-self: flex-end;
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+
+
+.card{
+    display: flex;
+    gap: 50px;
 }
 
 .card div{
@@ -200,6 +215,11 @@ main{
     font-size: 36px;
     line-height: 42.19px;
     margin-top: 20px;
+}
+.card2 div{
+    justify-content: flex-end ;
+    align-items: flex-end;
+    
 }
 
 .card div p{
@@ -244,37 +264,36 @@ main{
     text-align: center;
 }
 
-.circle{
-    background-color: aqua;
-    width: 78.39px;
-    height: 70px;
-    border-radius: 35px;
-}
-
-.circles{
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 80px;
-}
-
-
-.feature{
-    text-align: center;
-    border: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.top-side, .btm-side{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.parent {
     width: 100%;
+    height: 900px; /* min*/
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+  
+.child {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 23%;  
+    height: 300px; /* min*/
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
 }
 
+.divcolor{
+    background-color: skyblue;
+    width: 180px; /* min*/
+    height: 180px; /* min*/
+    border-radius: 50%;
+}
+.ptxt{
+    font-size: 30px; /* min*/
+}
