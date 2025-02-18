@@ -1,0 +1,15 @@
+.section{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px 200px 200px ;
+    gap: 10px;
+}
+
+
+
+.section div {
+    background-color: blue;
+    display: grid;
+    grid-column-start: 3;
+    grid-row-start: 3;
+}
