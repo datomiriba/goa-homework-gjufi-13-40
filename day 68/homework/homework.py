@@ -1,1 +1,1 @@
-print("codwarsebi gaketebuli maq")
+print("codwarsebi gaketebuli maq cota")
