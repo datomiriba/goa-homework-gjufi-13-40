@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    size: 100vh;
+}
+
+
+.nav ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.nav h2{
+    color: rgb(176, 10, 10);
+}
+
+.nav button{
+    color: white;
+    margin-left: 290px;
+}
+
+
+.div h1 {
+    color: black;
+}
+
+
+.div img{
+    margin-left: 550px;
+}
+
+.div1{
+    margin-bottom: 700px;
+}
+
+.button1{
+    margin-left: 50px;
+    width: 7%;
+    height: 10%;
+    color: orange;
+}
+
+
+.button2{   
+    margin-left: 50px;
+    width: 7%;
+    height: 10%;
+    color: orange;}
