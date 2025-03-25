@@ -1,0 +1,130 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0; 
+}
+.div-container {
+    width: 800px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.logo {
+    font-size: 1.5em;
+    color: #4CAF50; /* Green logo */
+}
+.nav ul {
+    list-style: none;
+    display: flex;
+}
+.nav li {
+    margin-left: 20px;
+}
+.nav a {
+    text-decoration: none;
+    color: #333;
+}
+.nav a.active {
+    color: #4CAF50;
+}
+.hero {
+    text-align: left;
+    margin-bottom: 40px;
+}
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+.hero p {
+    color: #666;
+    margin-bottom: 30px;
+}
+.hero .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.clients {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.clients h2 {
+    margin-bottom: 20px;
+}
+.clients .client-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.client-icons img {
+    width: 50px; 
+    height: 50px;
+    object-fit: contain;
+}
+.features {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.features h2 {
+    margin-bottom: 20px;
+}
+.feature-list {
+    display: flex;
+    justify-content: space-around;
+}
+.feature-item {
+    text-align: center;
+}
+.feature-item img {
+    width: 80px; 
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+.footer {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer img{
+    margin-right: 450px;
+}
+
+.footer p{
+    margin-left: 190px;
+}
+
+
+.local{
+    width:375.88px ;
+    height:84.57px ;
+    gap: 5.7px;
+}
+
+.local-h1{
+    color: greenyellow;
+}
+
+
+ .mimers{
+    margin-left: 100%;
+    margin-bottom: 100px;
+}
+
+
+.mimers1 {
+
+}
